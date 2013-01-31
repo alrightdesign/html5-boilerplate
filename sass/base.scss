@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html {  }
+
+body {
+    color: #1e1e1e;
+    font-weight: 400; 
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", "Georgia","Times New Roman","serif"; 
+    line-height: 1.625; /* 26/16 */
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased; }
+
+header {  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+    //-webkit-font-smoothing: antialiased;
+    }
+
+h1, .hone {
+}
+
+h2, .htwo {
+}
+
+h3, .hthree {
+}
+
+h4, .hfour {
+}
+
+h5, .hfive {
+}
+
+h6, .hsix {
+}
+
+
+a {
+    &:hover {
+
+    }
+}
+
+p {
+
+}
+
+
+// A better looking default horizontal rule
+hr {
+    display: block;
+    margin: 1em 0;
+    padding: 0;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
