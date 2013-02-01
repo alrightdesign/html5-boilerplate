@@ -11,12 +11,17 @@ License: All rights reserved
 // Libraries
 @import "crossbrowser";
 
+// Helpers
+@import "helpers";	// Image replacement .ir, .hidden, .visuallyhidden, .visuallyhidden.focusable, .invisible,   micro clearfix mixin
+
+
 // Framkeworks
 @import "normalize";
 
 // - - - - - - - - - - - - - - - - - - - - - 
 
 // Custom
+@import "vars";
 @import "base";
 @import "layout";
 @import "modules";
@@ -29,9 +34,8 @@ License: All rights reserved
 // Print Default Style
 @import "print";
 
-// Helpers
-@import "helpers";	// Image replacement .ir, .hidden, .visuallyhidden, .visuallyhidden.focusable, .invisible,   micro clearfix mixin
+
 
 // Utilities and Plugins
-@import "hashgrid";	// Layout grid overlay
-@import "prism";	// Code highlighting script
+//@import "hashgrid";	// Layout grid overlay
+//@import "prism";	// Code highlighting script
